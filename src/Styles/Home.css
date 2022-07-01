@@ -1,0 +1,84 @@
+.mainContainer{
+    width: 100%;
+    margin-top: 10vh;
+    color: white;
+}
+.bottomHeadContainer{
+    /* border:solid; */
+    width: 100%;
+    height: 25vh;
+}
+.Heading{
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 0;
+}
+.NftHeadingContainer{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.nftPargraph{
+    width: 30%;
+    height: 100%;
+    color: gray;
+}
+.walletContainer{
+    margin-top: 15vh;
+    height: 20vh;
+   
+}
+.walletItem{
+    height: 60%;
+    width: 20%;
+}
+.walletTitle{
+    font-size: 2rem;
+}
+@media only screen and (max-width: 540px) {
+    .Heading{
+        font-size:4rem;
+    }
+    .dispImg{
+        display: none;
+    }
+    .nftPargraph{
+       display: none;
+    }
+    .walletContainer{
+        display: none;
+    }
+}
+@media only screen and (max-width: 940px) {
+    .Heading{
+        font-size:5rem;
+    }
+    .bottomHeadContainer{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .nftPargraph{
+       display: none;
+    }
+    .NftHeadingContainer{
+        justify-content: start;
+    }
+    .walletContainer{
+        display: none;
+    }
+}
+@media only screen and (min-width: 940px) and (max-width:1064px) {
+    .Heading{
+        font-size:5.5rem;
+    }
+    .bottomHeadContainer{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .NftHeadingContainer{
+        justify-content: start;
+    }
+    
+}
